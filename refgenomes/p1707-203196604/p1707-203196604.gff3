@@ -1,0 +1,13 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region p1707-203196604 1 7618
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=122929
+p1707-203196604	Genbank	region	1	7618	.	+	.	ID=p1707-203196604:1..7618;Dbxref=taxon:122929;collection-date=24-Apr-2020;country=USA;gbkey=Src;genotype=GII.4 Sydney[P16];isolate=Hu/GII.4 Sydney[P16]/Minnesota0101/2020/USA;isolation-source=stool;mol_type=genomic RNA;nat-host=Homo sapiens
+p1707-203196604	Genbank	gene	40	5136	.	+	.	ID=gene-ORF1;Name=ORF1;gbkey=Gene;gene=ORF1;gene_biotype=protein_coding;partial=true;start_range=.,1
+p1707-203196604	Genbank	CDS	40	5136	.	+	0	ID=cds-XEQ90824.1;Parent=gene-ORF1;Dbxref=NCBI_GP:XEQ90824.1;Name=XEQ90824.1;gbkey=CDS;gene=ORF1;partial=true;product=nonstructural polyprotein;protein_id=XEQ90824.1;start_range=.,1
+p1707-203196604	Genbank	gene	5117	6739	.	+	.	ID=gene-ORF2;Name=ORF2;gbkey=Gene;gene=ORF2;gene_biotype=protein_coding
+p1707-203196604	Genbank	CDS	5117	6739	.	+	0	ID=cds-XEQ90825.1;Parent=gene-ORF2;Dbxref=NCBI_GP:XEQ90825.1;Name=XEQ90825.1;gbkey=CDS;gene=ORF2;product=VP1;protein_id=XEQ90825.1
+p1707-203196604	Genbank	gene	6739	7545	.	+	.	ID=gene-ORF3;Name=ORF3;gbkey=Gene;gene=ORF3;gene_biotype=protein_coding
+p1707-203196604	Genbank	CDS	6739	7545	.	+	0	ID=cds-XEQ90826.1;Parent=gene-ORF3;Dbxref=NCBI_GP:XEQ90826.1;Name=XEQ90826.1;gbkey=CDS;gene=ORF3;product=VP2;protein_id=XEQ90826.1
+

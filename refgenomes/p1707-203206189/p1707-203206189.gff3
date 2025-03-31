@@ -1,0 +1,13 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region p1707-203206189 1 7525
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=122929
+p1707-203206189	Genbank	region	1	7525	.	+	.	ID=p1707-203206189:1..7525;Dbxref=taxon:122929;collection-date=18-Jan-2018;country=USA;gbkey=Src;genotype=GII.P16-GII.12;isolate=Hu/US/2018/GII.P16-GII.12/Baltimore0213;isolation-source=stool;mol_type=genomic RNA;nat-host=Homo sapiens;strain=Baltimore0213
+p1707-203206189	Genbank	gene	3	5090	.	+	.	ID=gene-ORF1;Name=ORF1;gbkey=Gene;gene=ORF1;gene_biotype=protein_coding
+p1707-203206189	Genbank	CDS	3	5090	.	+	0	ID=cds-QBW96042.1;Parent=gene-ORF1;Dbxref=NCBI_GP:QBW96042.1;Name=QBW96042.1;gbkey=CDS;gene=ORF1;product=nonstructural polyprotein;protein_id=QBW96042.1
+p1707-203206189	Genbank	gene	5071	6678	.	+	.	ID=gene-ORF2;Name=ORF2;gbkey=Gene;gene=ORF2;gene_biotype=protein_coding
+p1707-203206189	Genbank	CDS	5071	6678	.	+	0	ID=cds-QBW96043.1;Parent=gene-ORF2;Dbxref=NCBI_GP:QBW96043.1;Name=QBW96043.1;gbkey=CDS;gene=ORF2;product=VP1;protein_id=QBW96043.1
+p1707-203206189	Genbank	gene	6678	7457	.	+	.	ID=gene-ORF3;Name=ORF3;gbkey=Gene;gene=ORF3;gene_biotype=protein_coding
+p1707-203206189	Genbank	CDS	6678	7457	.	+	0	ID=cds-QBW96044.1;Parent=gene-ORF3;Dbxref=NCBI_GP:QBW96044.1;Name=QBW96044.1;gbkey=CDS;gene=ORF3;product=VP2;protein_id=QBW96044.1
+

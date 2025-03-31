@@ -1,0 +1,10 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region p1707-203205853 1 7568
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=707528
+p1707-203205853	DDBJ	region	1	7568	.	+	.	ID=p1707-203205853:1..7568;Dbxref=taxon:707528;country=Japan:Sakai;gbkey=Src;isolation-source=stool;mol_type=genomic RNA;strain=Hu/GII-4/Sakai4/2008/JP
+p1707-203205853	DDBJ	CDS	3	5093	.	+	0	ID=cds-BAJ13965.1;Dbxref=NCBI_GP:BAJ13965.1;Name=BAJ13965.1;Note=contains N-terminal NTPase 3A VPg 3Cpro and 3Dpol;gbkey=CDS;product=polyprotein;protein_id=BAJ13965.1
+p1707-203205853	DDBJ	CDS	5074	6696	.	+	0	ID=cds-BAJ13966.1;Dbxref=NCBI_GP:BAJ13966.1;Name=BAJ13966.1;gbkey=CDS;product=VP1;protein_id=BAJ13966.1
+p1707-203205853	DDBJ	CDS	6696	7502	.	+	0	ID=cds-BAJ13967.1;Dbxref=NCBI_GP:BAJ13967.1;Name=BAJ13967.1;gbkey=CDS;product=VP2;protein_id=BAJ13967.1
+

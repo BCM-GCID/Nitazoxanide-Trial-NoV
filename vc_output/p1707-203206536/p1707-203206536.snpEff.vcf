@@ -1,0 +1,27 @@
+##fileformat=VCFv4.2
+##source=iVar
+##INFO=<ID=AF,Number=1,Type=String,Description="Frequency of alternate base">
+##INFO=<ID=GFF_FEATURE,Number=1,Type=String,Description="iVar annotation feature">
+##INFO=<ID=REF_CODON,Number=1,Type=String,Description="iVar annotation, reference codon">
+##INFO=<ID=REF_AA,Number=1,Type=String,Description="iVar annotation, reference amino acid">
+##INFO=<ID=ALT_CODON,Number=1,Type=String,Description="iVar annotation, alternate codon">
+##INFO=<ID=ALT_AA,Number=1,Type=String,Description="iVar annotation, alternate amino acid">
+##FILTER=<ID=PASS,Description="Result of p-value <= 0.05">
+##FILTER=<ID=FAIL,Description="Result of p-value > 0.05">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=REF_DP,Number=1,Type=Integer,Description="Depth of reference base">
+##FORMAT=<ID=REF_RV,Number=1,Type=Integer,Description="Depth of reference base on reverse reads">
+##FORMAT=<ID=REF_QUAL,Number=1,Type=Integer,Description="Mean quality of reference base">
+##FORMAT=<ID=ALT_DP,Number=1,Type=Integer,Description="Depth of alternate base">
+##FORMAT=<ID=ALT_RV,Number=1,Type=Integer,Description="Depth of alternate base on reverse reads">
+##FORMAT=<ID=ALT_QUAL,Number=1,Type=String,Description="Mean quality of alternate base">
+##FORMAT=<ID=ALT_FREQ,Number=1,Type=String,Description="Frequency of alternate base">
+##SnpEffVersion="5.0e (build 2021-03-09 06:01), by Pablo Cingolani"
+##SnpEffCmd="SnpEff  p1707-203206506 /gpfs1/projects/Pools/RD_projects/NoV_p1707_NTZ_variant_calling/output/p1707-203206536/p1707-203206536.ivar.vcf "
+##INFO=<ID=ANN,Number=.,Type=String,Description="Functional annotations: 'Allele | Annotation | Annotation_Impact | Gene_Name | Gene_ID | Feature_Type | Feature_ID | Transcript_BioType | Rank | HGVS.c | HGVS.p | cDNA.pos / cDNA.length | CDS.pos / CDS.length | AA.pos / AA.length | Distance | ERRORS / WARNINGS / INFO' ">
+##INFO=<ID=LOF,Number=.,Type=String,Description="Predicted loss of function effects for this variant. Format: 'Gene_Name | Gene_ID | Number_of_transcripts_in_gene | Percent_of_transcripts_affected'">
+##INFO=<ID=NMD,Number=.,Type=String,Description="Predicted nonsense mediated decay effects for this variant. Format: 'Gene_Name | Gene_ID | Number_of_transcripts_in_gene | Percent_of_transcripts_affected'">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	/gpfs1/projects/Pools/RD_projects/NoV_p1707_NTZ_variant_calling/output/p1707-203206536/p1707-203206536.ivar
+p1707-203206506	2626	.	A	G	.	PASS	AF=0.5;GFF_FEATURE=cds-QSD58399.1;REF_CODON=TCA;REF_AA=S;ALT_CODON=TCG;ALT_AA=S;ANN=G|synonymous_variant|LOW|ORF1|gene-ORF1|transcript|TRANSCRIPT_gene-ORF1|protein_coding|1/1|c.2580A>G|p.Ser860Ser|2580/5100|2580/5100|860/1699||WARNING_TRANSCRIPT_NO_START_CODON,G|upstream_gene_variant|MODIFIER|ORF2|gene-ORF2|transcript|TRANSCRIPT_gene-ORF2|protein_coding||c.-2501A>G|||||2501|,G|upstream_gene_variant|MODIFIER|ORF3|gene-ORF3|transcript|TRANSCRIPT_gene-ORF3|protein_coding||c.-4123A>G|||||4123|	GT:REF_DP:REF_RV:REF_QUAL:ALT_DP:ALT_RV:ALT_QUAL:ALT_FREQ	1:7:1:58:7:0:68:0.5
+p1707-203206506	2638	.	G	A	.	PASS	AF=0.3;GFF_FEATURE=cds-QSD58399.1;REF_CODON=GAG;REF_AA=E;ALT_CODON=GAA;ALT_AA=E;ANN=A|synonymous_variant|LOW|ORF1|gene-ORF1|transcript|TRANSCRIPT_gene-ORF1|protein_coding|1/1|c.2592G>A|p.Glu864Glu|2592/5100|2592/5100|864/1699||WARNING_TRANSCRIPT_NO_START_CODON,A|upstream_gene_variant|MODIFIER|ORF2|gene-ORF2|transcript|TRANSCRIPT_gene-ORF2|protein_coding||c.-2489G>A|||||2489|,A|upstream_gene_variant|MODIFIER|ORF3|gene-ORF3|transcript|TRANSCRIPT_gene-ORF3|protein_coding||c.-4111G>A|||||4111|	GT:REF_DP:REF_RV:REF_QUAL:ALT_DP:ALT_RV:ALT_QUAL:ALT_FREQ	1:14:4:52:6:0:67:0.3
+p1707-203206506	4884	.	A	G	.	PASS	AF=1;GFF_FEATURE=cds-QSD58399.1;REF_CODON=GAA;REF_AA=E;ALT_CODON=GGA;ALT_AA=G;ANN=G|missense_variant|MODERATE|ORF1|gene-ORF1|transcript|TRANSCRIPT_gene-ORF1|protein_coding|1/1|c.4838A>G|p.Glu1613Gly|4838/5100|4838/5100|1613/1699||WARNING_TRANSCRIPT_NO_START_CODON,G|upstream_gene_variant|MODIFIER|ORF2|gene-ORF2|transcript|TRANSCRIPT_gene-ORF2|protein_coding||c.-243A>G|||||243|,G|upstream_gene_variant|MODIFIER|ORF3|gene-ORF3|transcript|TRANSCRIPT_gene-ORF3|protein_coding||c.-1865A>G|||||1865|	GT:REF_DP:REF_RV:REF_QUAL:ALT_DP:ALT_RV:ALT_QUAL:ALT_FREQ	1:0:0:0:6:3:37:1

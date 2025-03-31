@@ -1,0 +1,12 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region p1707-203197508 1 7589
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1529926
+p1707-203197508	Genbank	region	1	7589	.	+	.	ID=p1707-203197508:1..7589;Dbxref=taxon:1529926;collection-date=2012;country=Japan;gbkey=Src;genome=genomic;genotype=GII.Pe_GII.4_Sydney2012;isolate=Fukuyama/2;mol_type=genomic RNA;nat-host=Homo sapiens
+p1707-203197508	Genbank	CDS	15	5114	.	+	0	ID=cds-AII73728.1;Dbxref=NCBI_GP:AII73728.1;Name=AII73728.1;gbkey=CDS;product=polyprotein;protein_id=AII73728.1
+p1707-203197508	Genbank	gene	5095	6717	.	+	.	ID=gene-VP1;Name=VP1;gbkey=Gene;gene=VP1;gene_biotype=protein_coding
+p1707-203197508	Genbank	CDS	5095	6717	.	+	0	ID=cds-AII73729.1;Parent=gene-VP1;Dbxref=NCBI_GP:AII73729.1;Name=AII73729.1;gbkey=CDS;gene=VP1;product=VP1;protein_id=AII73729.1
+p1707-203197508	Genbank	gene	6717	7523	.	+	.	ID=gene-VP2;Name=VP2;gbkey=Gene;gene=VP2;gene_biotype=protein_coding
+p1707-203197508	Genbank	CDS	6717	7523	.	+	0	ID=cds-AII73730.1;Parent=gene-VP2;Dbxref=NCBI_GP:AII73730.1;Name=AII73730.1;gbkey=CDS;gene=VP2;product=VP2;protein_id=AII73730.1
+

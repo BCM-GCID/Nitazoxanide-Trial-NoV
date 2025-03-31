@@ -1,0 +1,26 @@
+##fileformat=VCFv4.2
+##source=iVar
+##INFO=<ID=AF,Number=1,Type=String,Description="Frequency of alternate base">
+##INFO=<ID=GFF_FEATURE,Number=1,Type=String,Description="iVar annotation feature">
+##INFO=<ID=REF_CODON,Number=1,Type=String,Description="iVar annotation, reference codon">
+##INFO=<ID=REF_AA,Number=1,Type=String,Description="iVar annotation, reference amino acid">
+##INFO=<ID=ALT_CODON,Number=1,Type=String,Description="iVar annotation, alternate codon">
+##INFO=<ID=ALT_AA,Number=1,Type=String,Description="iVar annotation, alternate amino acid">
+##FILTER=<ID=PASS,Description="Result of p-value <= 0.05">
+##FILTER=<ID=FAIL,Description="Result of p-value > 0.05">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=REF_DP,Number=1,Type=Integer,Description="Depth of reference base">
+##FORMAT=<ID=REF_RV,Number=1,Type=Integer,Description="Depth of reference base on reverse reads">
+##FORMAT=<ID=REF_QUAL,Number=1,Type=Integer,Description="Mean quality of reference base">
+##FORMAT=<ID=ALT_DP,Number=1,Type=Integer,Description="Depth of alternate base">
+##FORMAT=<ID=ALT_RV,Number=1,Type=Integer,Description="Depth of alternate base on reverse reads">
+##FORMAT=<ID=ALT_QUAL,Number=1,Type=String,Description="Mean quality of alternate base">
+##FORMAT=<ID=ALT_FREQ,Number=1,Type=String,Description="Frequency of alternate base">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	/gpfs1/projects/Pools/RD_projects/NoV_p1707_NTZ_variant_calling/output/p1707-203205832/p1707-203205832.ivar
+p1707-203205732	428	.	C	T	.	PASS	AF=0.053909;GFF_FEATURE=cds-AWR17643.1;REF_CODON=TCC;REF_AA=S;ALT_CODON=TCT;ALT_AA=S	GT:REF_DP:REF_RV:REF_QUAL:ALT_DP:ALT_RV:ALT_QUAL:ALT_FREQ	1:3703:1230:46:211:52:48:0.053909
+p1707-203205732	1462	.	C	T	.	PASS	AF=0.138889;GFF_FEATURE=cds-AWR17643.1;REF_CODON=ACC;REF_AA=T;ALT_CODON=ATC;ALT_AA=I	GT:REF_DP:REF_RV:REF_QUAL:ALT_DP:ALT_RV:ALT_QUAL:ALT_FREQ	1:3222:1143:43:520:155:45:0.138889
+p1707-203205732	2331	.	G	A	.	PASS	AF=0.0308255;GFF_FEATURE=cds-AWR17643.1;REF_CODON=GTT;REF_AA=V;ALT_CODON=ATT;ALT_AA=I	GT:REF_DP:REF_RV:REF_QUAL:ALT_DP:ALT_RV:ALT_QUAL:ALT_FREQ	1:3708:1308:47:118:50:47:0.0308255
+p1707-203205732	5602	.	A	G	.	PASS	AF=0.0377758;GFF_FEATURE=cds-AWR17641.1;REF_CODON=ATA;REF_AA=I;ALT_CODON=GTA;ALT_AA=V	GT:REF_DP:REF_RV:REF_QUAL:ALT_DP:ALT_RV:ALT_QUAL:ALT_FREQ	1:3184:1035:42:125:46:42:0.0377758
+p1707-203205732	6104	.	G	A	.	PASS	AF=0.0486954;GFF_FEATURE=cds-AWR17641.1;REF_CODON=AGC;REF_AA=S;ALT_CODON=AAC;ALT_AA=N	GT:REF_DP:REF_RV:REF_QUAL:ALT_DP:ALT_RV:ALT_QUAL:ALT_FREQ	1:6260:2653:44:321:127:44:0.0486954
+p1707-203205732	7108	.	T	C	.	PASS	AF=0.039038;GFF_FEATURE=cds-AWR17642.1;REF_CODON=TTT;REF_AA=F;ALT_CODON=TCT;ALT_AA=S	GT:REF_DP:REF_RV:REF_QUAL:ALT_DP:ALT_RV:ALT_QUAL:ALT_FREQ	1:2757:1220:41:112:55:44:0.039038
+p1707-203205732	7126	.	T	C	.	PASS	AF=0.0606277;GFF_FEATURE=cds-AWR17642.1;REF_CODON=CTT;REF_AA=L;ALT_CODON=CCT;ALT_AA=P	GT:REF_DP:REF_RV:REF_QUAL:ALT_DP:ALT_RV:ALT_QUAL:ALT_FREQ	1:2633:1072:41:170:59:42:0.0606277

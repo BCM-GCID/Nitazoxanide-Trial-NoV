@@ -1,0 +1,19 @@
+##fileformat=VCFv4.2
+##source=iVar
+##INFO=<ID=AF,Number=1,Type=String,Description="Frequency of alternate base">
+##INFO=<ID=GFF_FEATURE,Number=1,Type=String,Description="iVar annotation feature">
+##INFO=<ID=REF_CODON,Number=1,Type=String,Description="iVar annotation, reference codon">
+##INFO=<ID=REF_AA,Number=1,Type=String,Description="iVar annotation, reference amino acid">
+##INFO=<ID=ALT_CODON,Number=1,Type=String,Description="iVar annotation, alternate codon">
+##INFO=<ID=ALT_AA,Number=1,Type=String,Description="iVar annotation, alternate amino acid">
+##FILTER=<ID=PASS,Description="Result of p-value <= 0.05">
+##FILTER=<ID=FAIL,Description="Result of p-value > 0.05">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=REF_DP,Number=1,Type=Integer,Description="Depth of reference base">
+##FORMAT=<ID=REF_RV,Number=1,Type=Integer,Description="Depth of reference base on reverse reads">
+##FORMAT=<ID=REF_QUAL,Number=1,Type=Integer,Description="Mean quality of reference base">
+##FORMAT=<ID=ALT_DP,Number=1,Type=Integer,Description="Depth of alternate base">
+##FORMAT=<ID=ALT_RV,Number=1,Type=Integer,Description="Depth of alternate base on reverse reads">
+##FORMAT=<ID=ALT_QUAL,Number=1,Type=String,Description="Mean quality of alternate base">
+##FORMAT=<ID=ALT_FREQ,Number=1,Type=String,Description="Frequency of alternate base">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	/gpfs1/projects/Pools/RD_projects/NoV_p1707_NTZ_variant_calling/output/p1707-203206529/p1707-203206529.ivar

@@ -1,0 +1,12 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region p1707-203205624 1 7571
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=122929
+p1707-203205624	Genbank	region	1	7571	.	+	.	ID=p1707-203205624:1..7571;Dbxref=taxon:122929;collection-date=22-May-2017;country=USA;gbkey=Src;genotype=GII.P16-GII.4 Sydney;isolate=Hu/US/2018/GII.P16-GII.4 Sydney/Wood0352;isolation-source=stool;mol_type=genomic RNA;nat-host=Homo sapiens;strain=Wood0352
+p1707-203205624	Genbank	gene	10	5097	.	+	.	ID=gene-ORF1;Name=ORF1;gbkey=Gene;gene=ORF1;gene_biotype=protein_coding
+p1707-203205624	Genbank	CDS	10	5097	.	+	0	ID=cds-QBY35945.1;Parent=gene-ORF1;Dbxref=NCBI_GP:QBY35945.1;Name=QBY35945.1;gbkey=CDS;gene=ORF1;product=nonstructural polyprotein;protein_id=QBY35945.1
+p1707-203205624	Genbank	gene	5078	6700	.	+	.	ID=gene-ORF2;Name=ORF2;gbkey=Gene;gene=ORF2;gene_biotype=protein_coding
+p1707-203205624	Genbank	CDS	5078	6700	.	+	0	ID=cds-QBY35946.1;Parent=gene-ORF2;Dbxref=NCBI_GP:QBY35946.1;Name=QBY35946.1;gbkey=CDS;gene=ORF2;product=VP1;protein_id=QBY35946.1
+p1707-203205624	Genbank	gene	6700	7506	.	+	.	ID=gene-ORF3;Name=ORF3;gbkey=Gene;gene=ORF3;gene_biotype=protein_coding
+p1707-203205624	Genbank	CDS	6700	7506	.	+	0	ID=cds-QBY35947.1;Parent=gene-ORF3;Dbxref=NCBI_GP:QBY35947.1;Name=QBY35947.1;gbkey=CDS;gene=ORF3;product=VP2;protein_id=QBY35947.1

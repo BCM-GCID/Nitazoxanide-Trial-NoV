@@ -1,0 +1,13 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region p1707-203205898 1 7461
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=122929
+p1707-203205898	Genbank	region	1	7461	.	+	.	ID=p1707-203205898:1..7461;Dbxref=taxon:122929;collection-date=Aug-2018;country=USA: CA;gbkey=Src;genotype=GII.P16-GII.12;isolate=CA-RGDS-1019;isolation-source=stool;mol_type=genomic RNA;nat-host=Homo sapiens
+p1707-203205898	Genbank	gene	3	5051	.	+	.	ID=gene-ORF1;Name=ORF1;gbkey=Gene;gene=ORF1;gene_biotype=protein_coding;partial=true;start_range=.,1
+p1707-203205898	Genbank	CDS	3	5051	.	+	0	ID=cds-QBL14287.1;Parent=gene-ORF1;Dbxref=NCBI_GP:QBL14287.1;Name=QBL14287.1;gbkey=CDS;gene=ORF1;partial=true;product=nonstructural polyprotein;protein_id=QBL14287.1;start_range=.,1
+p1707-203205898	Genbank	gene	5032	6639	.	+	.	ID=gene-ORF2;Name=ORF2;gbkey=Gene;gene=ORF2;gene_biotype=protein_coding
+p1707-203205898	Genbank	CDS	5032	6639	.	+	0	ID=cds-QBL14288.1;Parent=gene-ORF2;Dbxref=NCBI_GP:QBL14288.1;Name=QBL14288.1;gbkey=CDS;gene=ORF2;product=VP1;protein_id=QBL14288.1
+p1707-203205898	Genbank	gene	6639	7418	.	+	.	ID=gene-ORF3;Name=ORF3;gbkey=Gene;gene=ORF3;gene_biotype=protein_coding
+p1707-203205898	Genbank	CDS	6639	7418	.	+	0	ID=cds-QBL14289.1;Parent=gene-ORF3;Dbxref=NCBI_GP:QBL14289.1;Name=QBL14289.1;gbkey=CDS;gene=ORF3;product=VP2;protein_id=QBL14289.1
+

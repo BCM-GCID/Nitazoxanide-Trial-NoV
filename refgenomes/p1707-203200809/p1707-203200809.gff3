@@ -1,0 +1,13 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region p1707-203200809 1 7596
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=122929
+p1707-203200809	Genbank	region	1	7596	.	+	.	ID=p1707-203200809:1..7596;Dbxref=taxon:122929;collection-date=09-Mar-2015;country=United Kingdom;gbkey=Src;genome=genomic;genotype=GII.P7_GII.6;isolate=NORO_171_09_03_2015;mol_type=genomic RNA;nat-host=Homo sapiens
+p1707-203200809	Genbank	gene	27	5114	.	+	.	ID=gene-ORF1;Name=ORF1;gbkey=Gene;gene=ORF1;gene_biotype=protein_coding
+p1707-203200809	Genbank	CDS	27	5114	.	+	0	ID=cds-AWR17580.1;Parent=gene-ORF1;Dbxref=NCBI_GP:AWR17580.1;Name=AWR17580.1;gbkey=CDS;gene=ORF1;product=nonstructural polyprotein;protein_id=AWR17580.1
+p1707-203200809	Genbank	gene	5095	6738	.	+	.	ID=gene-ORF2;Name=ORF2;gbkey=Gene;gene=ORF2;gene_biotype=protein_coding
+p1707-203200809	Genbank	CDS	5095	6738	.	+	0	ID=cds-AWR17578.1;Parent=gene-ORF2;Dbxref=NCBI_GP:AWR17578.1;Name=AWR17578.1;gbkey=CDS;gene=ORF2;product=VP1;protein_id=AWR17578.1
+p1707-203200809	Genbank	gene	6738	7514	.	+	.	ID=gene-ORF3;Name=ORF3;gbkey=Gene;gene=ORF3;gene_biotype=protein_coding
+p1707-203200809	Genbank	CDS	6738	7514	.	+	0	ID=cds-AWR17579.1;Parent=gene-ORF3;Dbxref=NCBI_GP:AWR17579.1;Name=AWR17579.1;gbkey=CDS;gene=ORF3;product=VP2;protein_id=AWR17579.1
+

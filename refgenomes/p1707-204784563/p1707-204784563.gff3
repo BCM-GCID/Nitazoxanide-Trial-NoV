@@ -1,0 +1,11 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region p1707-204784563 1 7752
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1529910
+p1707-204784563	Genbank	region	1	7752	.	+	.	ID=p1707-204784563:1..7752;Dbxref=taxon:1529910;collection-date=2007;country=Japan;gbkey=Src;genome=genomic;genotype=GI.P8_GI.8;isolate=Nagoya/KY531;mol_type=genomic RNA;nat-host=Homo sapiens;old-name=Norovirus GI/Hu/JP/2007/GI.P8_GII.8/Nagoya/KY531
+p1707-204784563	Genbank	CDS	3	5390	.	+	0	ID=cds-AII73782.1;Dbxref=NCBI_GP:AII73782.1;Name=AII73782.1;gbkey=CDS;product=polyprotein;protein_id=AII73782.1
+p1707-204784563	Genbank	gene	5374	7005	.	+	.	ID=gene-VP1;Name=VP1;gbkey=Gene;gene=VP1;gene_biotype=protein_coding
+p1707-204784563	Genbank	CDS	5374	7005	.	+	0	ID=cds-AII73783.1;Parent=gene-VP1;Dbxref=NCBI_GP:AII73783.1;Name=AII73783.1;gbkey=CDS;gene=VP1;product=VP1;protein_id=AII73783.1
+p1707-204784563	Genbank	gene	7005	7646	.	+	.	ID=gene-VP2;Name=VP2;gbkey=Gene;gene=VP2;gene_biotype=protein_coding
+p1707-204784563	Genbank	CDS	7005	7646	.	+	0	ID=cds-AII73784.1;Parent=gene-VP2;Dbxref=NCBI_GP:AII73784.1;Name=AII73784.1;gbkey=CDS;gene=VP2;product=VP2;protein_id=AII73784.1

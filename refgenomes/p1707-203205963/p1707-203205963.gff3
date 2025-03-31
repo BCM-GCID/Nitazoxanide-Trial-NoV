@@ -1,0 +1,10 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region p1707-203205963 1 7593
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=479952
+p1707-203205963	DDBJ	region	1	7593	.	+	.	ID=p1707-203205963:1..7593;Dbxref=taxon:479952;country=USA:Texas%2C Houston;gbkey=Src;isolation-source=Human stool;mol_type=genomic RNA;note=genogroup II;strain=Hu/Texas/TCH04-577/2004/US
+p1707-203205963	DDBJ	CDS	30	5123	.	+	0	ID=cds-BAG30938.1;Dbxref=NCBI_GP:BAG30938.1;Name=BAG30938.1;Note=Nonstructure proteins%2C N-terminal%2C NTPase%2C 3A-like protein%2C VPg%2C Protease%2C RdRp;gbkey=CDS;product=polyprotein;protein_id=BAG30938.1
+p1707-203205963	DDBJ	CDS	5104	6750	.	+	0	ID=cds-BAG30939.1;Dbxref=NCBI_GP:BAG30939.1;Name=BAG30939.1;gbkey=CDS;product=VP1;protein_id=BAG30939.1
+p1707-203205963	DDBJ	CDS	6750	7514	.	+	0	ID=cds-BAG30940.1;Dbxref=NCBI_GP:BAG30940.1;Name=BAG30940.1;gbkey=CDS;product=VP2;protein_id=BAG30940.1
+

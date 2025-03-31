@@ -1,0 +1,13 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region p1707-203195513 1 7585
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=122929
+p1707-203195513	Genbank	region	1	7585	.	+	.	ID=p1707-203195513:1..7585;Dbxref=taxon:122929;collection-date=10-Jan-2008;country=France: Nantes;gbkey=Src;genotype=GII.3-GII.P21;isolate=G19_034;isolation-source=stool;mol_type=genomic RNA;nat-host=Homo sapiens
+p1707-203195513	Genbank	gene	3	5096	.	+	.	ID=gene-ORF1;Name=ORF1;gbkey=Gene;gene=ORF1;gene_biotype=protein_coding;partial=true;start_range=.,1
+p1707-203195513	Genbank	CDS	3	5096	.	+	2	ID=cds-QCO93092.1;Parent=gene-ORF1;Dbxref=NCBI_GP:QCO93092.1;Name=QCO93092.1;gbkey=CDS;gene=ORF1;partial=true;product=nonstructural polyprotein;protein_id=QCO93092.1;start_range=.,1
+p1707-203195513	Genbank	gene	5077	6747	.	+	.	ID=gene-ORF2;Name=ORF2;gbkey=Gene;gene=ORF2;gene_biotype=protein_coding
+p1707-203195513	Genbank	CDS	5077	6747	.	+	0	ID=cds-QCO93093.1;Parent=gene-ORF2;Dbxref=NCBI_GP:QCO93093.1;Name=QCO93093.1;gbkey=CDS;gene=ORF2;product=VP1;protein_id=QCO93093.1
+p1707-203195513	Genbank	gene	6747	7511	.	+	.	ID=gene-ORF3;Name=ORF3;end_range=7585,.;gbkey=Gene;gene=ORF3;gene_biotype=protein_coding;partial=true
+p1707-203195513	Genbank	CDS	6747	7511	.	+	0	ID=cds-QCO93091.1;Parent=gene-ORF3;Dbxref=NCBI_GP:QCO93091.1;Name=QCO93091.1;end_range=7585,.;gbkey=CDS;gene=ORF3;partial=true;product=VP2;protein_id=QCO93091.1
+

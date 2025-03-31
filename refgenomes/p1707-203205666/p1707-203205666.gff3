@@ -1,0 +1,13 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region p1707-203205666 1 7592
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=122929
+p1707-203205666	Genbank	region	1	7592	.	+	.	ID=p1707-203205666:1..7592;Dbxref=taxon:122929;collection-date=04-Jun-2012;country=Brazil: Belem%2C PA;gbkey=Src;genotype=GII.PE/GII.4;isolate=JH6;isolation-source=stool;lat-lon=1.448822 S 48.473166 W;mol_type=genomic RNA;nat-host=Homo sapiens;strain=Hu/GII.Pe_GII.4/JH6/2012/PA/BRA
+p1707-203205666	Genbank	gene	2	5095	.	+	.	ID=gene-ORF1;Name=ORF1;gbkey=Gene;gene=ORF1;gene_biotype=protein_coding;partial=true;start_range=.,1
+p1707-203205666	Genbank	CDS	2	5095	.	+	0	ID=cds-QJT97694.1;Parent=gene-ORF1;Dbxref=NCBI_GP:QJT97694.1;Name=QJT97694.1;gbkey=CDS;gene=ORF1;partial=true;product=nonstructural polyprotein;protein_id=QJT97694.1;start_range=.,1
+p1707-203205666	Genbank	gene	5076	6698	.	+	.	ID=gene-ORF2;Name=ORF2;gbkey=Gene;gene=ORF2;gene_biotype=protein_coding
+p1707-203205666	Genbank	CDS	5076	6698	.	+	0	ID=cds-QJT97695.1;Parent=gene-ORF2;Dbxref=NCBI_GP:QJT97695.1;Name=QJT97695.1;gbkey=CDS;gene=ORF2;product=VP1;protein_id=QJT97695.1
+p1707-203205666	Genbank	gene	6698	7506	.	+	.	ID=gene-ORF3;Name=ORF3;gbkey=Gene;gene=ORF3;gene_biotype=protein_coding
+p1707-203205666	Genbank	CDS	6698	7504	.	+	0	ID=cds-QJT97696.1;Parent=gene-ORF3;Dbxref=NCBI_GP:QJT97696.1;Name=QJT97696.1;gbkey=CDS;gene=ORF3;product=VP2;protein_id=QJT97696.1
+

@@ -1,0 +1,13 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region p1707-203197707 1 7574
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=122929
+p1707-203197707	Genbank	region	1	7574	.	+	.	ID=p1707-203197707:1..7574;Dbxref=taxon:122929;collection-date=04-Jan-2012;country=USA;gbkey=Src;genotype=GII.4 New Orleans[P4 New Orleans];isolate=Hu/US/2012/GII.4 New Orleans[P4 New Orleans]/1115;isolation-source=stool;mol_type=genomic RNA;nat-host=Homo sapiens;note=Amplicon sequencing: first 35 nt does represent primer sequence;strain=CA-RGDS-1115
+p1707-203197707	Genbank	gene	10	5100	.	+	.	ID=gene-ORF1;Name=ORF1;gbkey=Gene;gene=ORF1;gene_biotype=protein_coding
+p1707-203197707	Genbank	CDS	10	5100	.	+	0	ID=cds-QVL87728.1;Parent=gene-ORF1;Dbxref=NCBI_GP:QVL87728.1;Name=QVL87728.1;gbkey=CDS;gene=ORF1;product=nonstructural polyprotein;protein_id=QVL87728.1
+p1707-203197707	Genbank	gene	5081	6703	.	+	.	ID=gene-ORF2;Name=ORF2;gbkey=Gene;gene=ORF2;gene_biotype=protein_coding
+p1707-203197707	Genbank	CDS	5081	6703	.	+	0	ID=cds-QVL87729.1;Parent=gene-ORF2;Dbxref=NCBI_GP:QVL87729.1;Name=QVL87729.1;gbkey=CDS;gene=ORF2;product=VP1;protein_id=QVL87729.1
+p1707-203197707	Genbank	gene	6703	7509	.	+	.	ID=gene-ORF3;Name=ORF3;gbkey=Gene;gene=ORF3;gene_biotype=protein_coding
+p1707-203197707	Genbank	CDS	6703	7509	.	+	0	ID=cds-QVL87730.1;Parent=gene-ORF3;Dbxref=NCBI_GP:QVL87730.1;Name=QVL87730.1;gbkey=CDS;gene=ORF3;product=VP2;protein_id=QVL87730.1
+
